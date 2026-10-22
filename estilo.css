@@ -4,9 +4,59 @@ body {
     text-align: center;
 }
 
+.encabezado{
+    background-color: #171412;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #49372B;
+}
+
+.menu {
+    display: flex;
+    gap: 12px;
+}
+
+.menu a {
+    color: #F2E5D5;
+    background-color: #38251E;
+    text-decoration: none;
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: #8B5E3C;
+    color: white;
+}
+
+.logo{
+    text-align: left;
+}
+
+.logo h2{
+    color: #F2E5D5;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.logo span{
+    color: #F2E5D5;
+    font-size: 11px;
+}
+
 h1 {
     color: #F2E5D5;
     font-size: 36px;
+    text-align: left;
+}
+
+h3{
+    color: #F2E5D5;
+    font-size: 24px;
 }
 
 p {
